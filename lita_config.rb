@@ -51,11 +51,11 @@ Lita.configure do |config|
   config.handlers.debug_api.passphrase = "treasurechest"
 
   config.handlers.debug_queue.schedule = {
-    "Mon"       => [],
-    "Tue"       => [],
-    "Wed"       => [],
-    "Thu"       => [],
-    "Fri"       => [],
+    "Mon"       => (0...24),
+    "Tue"       => (0...24),
+    "Wed"       => (0...24),
+    "Thu"       => (0...24),
+    "Fri"       => (0...24),
     "Sat"       => [],
     "Sun"       => []
   }
