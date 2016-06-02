@@ -53,12 +53,12 @@ Lita.configure do |config|
   config.handlers.debug_queue.schedule = {
     "Mon"       => (9..16),
     "Tue"       => (9..16),
-    "Wed"       => (2..17),
-    "Thu"       => (2..17),
-    "Fri"       => (2..16),
+    "Wed"       => (9..16),
+    "Thu"       => (9..16),
+    "Fri"       => (9..16),
     "Sat"       => [],
     "Sun"       => []
   }
 
-  config.handlers.keepalive.url = "http://fathomless-brushlands-9507.herokuapp.com/lita/info"
+  config.handlers.keepalive.url = "https://litaqueue.herokuapp.com/lita/info"
 end
