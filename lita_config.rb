@@ -42,8 +42,8 @@ Lita.configure do |config|
   config.handlers.debug_queue.classrooms = {
     "thisjustin"      => "hou_may2016_front_end",
     "jmatos"          => "hou_may2016_front_end",
-    "travis.h"        => "hou_may2016_front_end",
-    "travis.h"        => "hou_may2016_rails",
+    # "travis.h"        => "hou_may2016_front_end",
+    # "travis.h"        => "hou_may2016_rails",
     "jwo"             => "hou_may2016_rails",
     "azamsharp"       => "hou_june2016_ios",
   }
