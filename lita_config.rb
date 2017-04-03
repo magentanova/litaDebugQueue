@@ -40,11 +40,7 @@ Lita.configure do |config|
   # Have an admin message ironbot with `auth add/remove person assistants`
   # when this is updated between semesters.
   config.handlers.debug_queue.classrooms = {
-    "thisjustin"      => "hou_sept2016_frontend",
-    # "travis.h"        => "hou_may2016_front_end",
-    # "travis.h"        => "hou_may2016_rails",
-    "matt-distiller-keas" => "hou_sept2016_dotnet",
-    "azamsharp"       => "hou_sept2016_ios"
+    "thisjustin"      => "jan_2017_front_end",
   }
 
   config.handlers.debug_api.passphrase = "treasurechest"
