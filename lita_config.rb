@@ -25,6 +25,7 @@ Lita.configure do |config|
 
   ## Example: Set options for the chosen adapter.
   config.adapters.slack.token = ENV["SLACK_TOKEN"]
+  config.adapters.slack.token = 'xoxb-164587018999-raTyMPHgDyBb4dclq6NFJeCO'
 
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
