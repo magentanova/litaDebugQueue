@@ -4,8 +4,7 @@ Lita.configure do |config|
 
   puts ENV['loc']
   # Add HTTP port configuration for deployment to Heroku.
-  # config.http.port =  ENV["PORT"]
-  config.http.port = 3000
+  config.http.port = ENV["PORT"]
 
   # The locale code for the language to use.
   # config.robot.locale = :en
@@ -23,13 +22,9 @@ Lita.configure do |config|
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
   config.robot.adapter = :slack
-  puts 'token'
-
-  puts ENV["SLACK_TOKEN"]
 
   ## Example: Set options for the chosen adapter.
-  # config.adapters.slack.token = ENV["SLACK_TOKEN"]
-  config.adapters.slack.token = 'xoxb-164587018999-raTyMPHgDyBb4dclq6NFJeCO'
+  config.adapters.slack.token = ENV["SLACK_TOKEN"]
 
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
