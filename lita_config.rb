@@ -2,7 +2,6 @@ Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "Litabot"
 
-  puts ENV['loc']
   # Add HTTP port configuration for deployment to Heroku.
   config.http.port = ENV["PORT"]
 
@@ -17,7 +16,7 @@ Lita.configure do |config|
   # An array of user IDs that are considered administrators. These users
   # have the ability to add and remove other users from authorization groups.
   # What is considered a user ID will change depending on which adapter you use.
-  config.robot.admins = ["U06BUGE74"]
+  config.robot.admins = ["U3YHHMBP0"]
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
@@ -25,7 +24,7 @@ Lita.configure do |config|
 
   ## Example: Set options for the chosen adapter.
   config.adapters.slack.token = ENV["SLACK_TOKEN"]
-  config.adapters.slack.token = 'xoxb-164587018999-raTyMPHgDyBb4dclq6NFJeCO'
+  config.adapters.slack.token = 'xoxp-132412076081-134595725782-164343760309-03bf37902a16d51579b30a34fc729482'
 
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
